@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password
+http://qa.api.atom.ktp.io/v1/study,80,Gateway - StudyPlan,QA,./Studyplan.Regression.TestsV1/QA/requests.csv,./Studyplan.Regression.TestsV1/STG/validations.csv,,

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "id",
+      "type": "string"
+    },
+    "title": {
+      "id": "title",
+      "type": "string"
+    },
+    "business": {
+      "id": "business",
+      "type": "string"
+    },
+    "program": {
+      "id": "program",
+      "type": "string"
+    },
+    "assets": {
+      "id": "assets",
+      "type": "array",
+      "items": {
+        "id": "0",
+        "type": "object",
+        "properties": {
+          "id": {
+            "id": "id",
+            "type": "string"
+          },
+          "title": {
+            "id": "title",
+            "type": "string"
+          },
+          "uri": {
+            "id": "uri",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "additionalItems": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "assets"
+  ]
+}

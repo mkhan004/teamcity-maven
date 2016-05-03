@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "id": "#id",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "id": "#id",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "publishVersionId": {
+        "id": "#publishVersionId",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "versionNo": {
+        "id": "#versionNo",
+        "type": "integer",
+        "additionalProperties": false
+      },
+      "publishDate": {
+        "id": "#publishDate",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "publishPath": {
+        "id": "#publishPath",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "isLive": {
+        "id": "#isLive",
+        "type": "boolean",
+        "additionalProperties": false
+      },
+      "makeLiveDate": {
+        "id": "#makeLiveDate",
+        "type": "string",
+        "additionalProperties": false
+      }
+    }
+  }
+}

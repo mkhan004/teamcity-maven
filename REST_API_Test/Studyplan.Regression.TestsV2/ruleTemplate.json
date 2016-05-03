@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "id": "#0",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "id": "#id",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "title": {
+        "id": "#title",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "description": {
+        "id": "#description",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "isActive": {
+        "id": "#isActive",
+        "type": "boolean",
+        "additionalProperties": false
+      },
+      "createdOn": {
+        "id": "#createdOn",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "updatedOn": {
+        "id": "#updatedOn",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "createdBy": {
+        "id": "#createdBy",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "updatedBy": {
+        "id": "#updatedBy",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "condition": {
+        "id": "#condition",
+        "type": "array",
+        "additionalProperties": false,
+        "items": {
+          "id": "#0",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "id": "#id",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "allowMultipleValues": {
+              "id": "#allowMultipleValues",
+              "type": "boolean",
+              "additionalProperties": false
+            },
+            "dataType": {
+              "id": "#dataType",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "dataTypeId": {
+              "id": "#dataTypeId",
+              "type": "integer",
+              "additionalProperties": false
+            },
+            "operatorGuid": {
+              "id": "#operatorGuid",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "operatorTitle": {
+              "id": "#operatorTitle",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "operator": {
+              "id": "#operator",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "order": {
+              "id": "#order",
+              "type": "integer",
+              "additionalProperties": false
+            },
+            "propertyId": {
+              "id": "#propertyId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "propertyTitle": {
+              "id": "#propertyTitle",
+              "type": "string",
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "id",
+            "allowMultipleValues",
+            "dataType",
+            "dataTypeId",
+            "operatorGuid",
+            "operatorTitle",
+            "operator",
+            "order",
+            "propertyId",
+            "propertyTitle"
+          ]
+        },
+        "required": [
+          "0"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "description",
+      "isActive",
+      "createdOn",
+      "updatedOn",
+      "createdBy",
+      "updatedBy",
+      "condition"
+    ]
+  },
+  "required": [
+    "0"
+  ]
+}

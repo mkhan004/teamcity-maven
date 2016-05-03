@@ -1,0 +1,23 @@
+{
+  "appId": "atomqateam",
+  "user": {
+    "id": "123456",
+    "provider": "kaptest",
+    "email": "mcat_qa_jwang@kaptest.com",
+    "firstName": "Jerry",
+    "lastName": "Wang"
+  },
+  "resources": [
+    {
+      "urn": "LSATADVOS",
+      "active": true
+    },
+    {
+      "urn": "MCAT",
+      "active": true
+    }
+  ],
+  "iat": 1456767901,
+  "exp": 1456770061354654,
+  "iss": "gateway"
+}

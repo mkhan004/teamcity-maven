@@ -1,0 +1,57 @@
+[
+  {
+    "id": "string",
+    "title": "string",
+    "description": "string",
+    "format": "string",
+    "uri": "string",
+    "duration": "string",
+    "type": "string",
+    "source": {
+      "name": "string",
+      "data": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ]
+    },
+    "registration": "string",
+    "lesson": "string",
+    "categoryDimensions": [
+      {
+        "name": "string",
+        "categories": [
+          {
+            "name": "string",
+            "title": "string"
+          }
+        ]
+      }
+    ],
+    "criteria": {
+      "fields": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "categories": [
+        null
+      ]
+    },
+    "availability": {
+      "dateRule": {
+        "startsOn": "2015-02-26T21:05:42.460Z",
+        "endsOn": "2015-02-26T21:05:42.460Z"
+      },
+      "available": true
+    },
+    "hyperlink": {
+      "method": "string",
+      "body": "string",
+      "uri": "string"
+    },
+    "extension": {}
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "id": "#id",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "title": {
+      "id": "#title",
+      "type": "string",
+      "additionalProperties": false
+    }
+  }
+}

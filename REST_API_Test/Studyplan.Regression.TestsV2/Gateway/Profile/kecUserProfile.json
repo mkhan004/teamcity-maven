@@ -1,0 +1,13 @@
+{
+  "type": "user",
+  "userId": "KThorat",
+  "userProvider": "kec",
+  "email": "Kunal.Thorat@kaplan.com",
+  "firstName": "Kunal",
+  "lastName": "Thorat",
+  "version": 1,
+  "enrollments": [],
+  "iat": 1434473959,
+  "exp": 1434517159,
+  "iss": "gateway"
+}

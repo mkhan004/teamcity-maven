@@ -1,0 +1,9 @@
+{
+  "type": user
+  "version": 1
+  "userProvider": "kec",
+  "email": "student1@kaplan.com",
+  "firstName": "John",
+  "lastName": "Doe",
+  "enrollments": []
+}

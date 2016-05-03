@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password
+http://SWSDPAPI001.kaplaninc.com,80,StudyPlan,STAGING-STG1,./Atom.Integration.Tests/STG/requests.csv,./Atom.Integration.Tests/STG/validations.csv,,

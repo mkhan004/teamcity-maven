@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API Test Suite" parallel="none">
+  <test verbose="10" name="REST_API_Test" annotations="JDK">
+      <classes>
+          <class name="com.kaplan.API.TestOrchestrator"/>
+      </classes>
+  </test>
+</suite>

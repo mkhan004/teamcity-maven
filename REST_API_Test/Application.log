@@ -1,0 +1,82 @@
+05/02/2016 23:07:26 rootLogger Starting the test suite
+05/02/2016 23:07:26 rootLogger Loading config files
+05/02/2016 23:07:26 rootLogger ##teamcity[testSuiteStarted name='Integration Tests']
+05/02/2016 23:07:26 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:29 rootLogger 3 --- Pass
+05/02/2016 23:07:29 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:29 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/instructors']
+05/02/2016 23:07:30 rootLogger 4 --- Pass
+05/02/2016 23:07:30 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/instructors']
+05/02/2016 23:07:30 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/InvalidBiz/grad/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:31 rootLogger 5 --- Pass
+05/02/2016 23:07:31 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/InvalidBiz/grad/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:31 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/ktp/InvalidSbu/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:32 rootLogger 6 --- Pass
+05/02/2016 23:07:32 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/ktp/InvalidSbu/COMPLETEPROGRAM/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:32 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/InvalidProgram/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:32 rootLogger 7 --- Pass
+05/02/2016 23:07:32 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/InvalidProgram/COMPLETEPRODUCT/instructors']
+05/02/2016 23:07:32 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/instructor']
+05/02/2016 23:07:33 rootLogger 8 --- Pass
+05/02/2016 23:07:33 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/instructor']
+05/02/2016 23:07:33 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGINSTRACTOR/instructors']
+05/02/2016 23:07:33 rootLogger 9 --- Pass
+05/02/2016 23:07:33 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGINSTRACTOR/instructors']
+05/02/2016 23:07:33 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/instructors']
+05/02/2016 23:07:34 rootLogger 10 --- Pass
+05/02/2016 23:07:34 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/instructors']
+05/02/2016 23:07:34 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAMWITHOUTPRODUCT/InvalidProduct/instructors']
+05/02/2016 23:07:35 rootLogger 11 --- Pass
+05/02/2016 23:07:35 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAMWITHOUTPRODUCT/InvalidProduct/instructors']
+05/02/2016 23:07:35 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGINSTRACTOR/InvalidProduct/instructors']
+05/02/2016 23:07:36 rootLogger 12 --- Pass
+05/02/2016 23:07:36 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGINSTRACTOR/InvalidProduct/instructors']
+05/02/2016 23:07:36 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDINSTRACTOR/instructors']
+05/02/2016 23:07:37 rootLogger 13 --- Pass
+05/02/2016 23:07:37 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDINSTRACTOR/instructors']
+05/02/2016 23:07:37 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMALFORMEDINSTRACTOR/InvalidProduct/instructors']
+05/02/2016 23:07:39 rootLogger 14 --- Pass
+05/02/2016 23:07:39 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMALFORMEDINSTRACTOR/InvalidProduct/instructors']
+05/02/2016 23:07:39 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:39 rootLogger 15 --- Pass
+05/02/2016 23:07:39 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:39 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:41 rootLogger 16 --- Pass
+05/02/2016 23:07:41 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:41 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/InvalidBiz/grad/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:41 rootLogger 17 --- Pass
+05/02/2016 23:07:41 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/InvalidBiz/grad/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:41 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/ktp/InvalidSbu/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:42 rootLogger 18 --- Pass
+05/02/2016 23:07:42 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/ktp/InvalidSbu/COMPLETEPROGRAM/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:42 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/InvalidProgram/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:43 rootLogger 19 --- Pass
+05/02/2016 23:07:43 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/InvalidProgram/COMPLETEPRODUCT/sessions']
+05/02/2016 23:07:43 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/InvalidEndpoint']
+05/02/2016 23:07:43 rootLogger 20 --- Pass
+05/02/2016 23:07:43 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/COMPLETEPRODUCT/InvalidEndpoint']
+05/02/2016 23:07:43 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGUPCOMING/sessions']
+05/02/2016 23:07:46 rootLogger 21 --- Pass
+05/02/2016 23:07:46 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGUPCOMING/sessions']
+05/02/2016 23:07:46 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:47 rootLogger 22 --- Pass
+05/02/2016 23:07:47 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:47 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGRECORDED/sessions']
+05/02/2016 23:07:48 rootLogger 23 --- Pass
+05/02/2016 23:07:48 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMISSINGRECORDED/sessions']
+05/02/2016 23:07:48 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:48 rootLogger 24 --- Pass
+05/02/2016 23:07:48 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/InvalidProduct/sessions']
+05/02/2016 23:07:48 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGUPCOMMING/InvalidProduct/sessions']
+05/02/2016 23:07:50 rootLogger 25 --- Pass
+05/02/2016 23:07:50 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGUPCOMMING/InvalidProduct/sessions']
+05/02/2016 23:07:50 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGRECORDED/InvalidProduct/sessions']
+05/02/2016 23:07:51 rootLogger 26 --- Pass
+05/02/2016 23:07:51 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMISSINGRECORDED/InvalidProduct/sessions']
+05/02/2016 23:07:51 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDUPCOMING/sessions']
+05/02/2016 23:07:52 rootLogger 27 --- Pass
+05/02/2016 23:07:52 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDUPCOMING/sessions']
+05/02/2016 23:07:52 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDRECORDED/sessions']
+05/02/2016 23:07:52 rootLogger 28 --- Pass
+05/02/2016 23:07:52 rootLogger ##teamcity[testFinished name='GET for endpoint /api/v1/wayneenterprises/aerospace/COMPLETEPROGRAM/PRODUCTMALFORMEDRECORDED/sessions']
+05/02/2016 23:07:52 rootLogger ##teamcity[testStarted name='GET for endpoint /api/v1/wayneenterprises/aerospace/PROGRAMMALFORMEDUPCOMING/InvalidProduct/sessions']

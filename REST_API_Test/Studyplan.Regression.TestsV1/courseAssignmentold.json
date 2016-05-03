@@ -1,0 +1,182 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "array",
+  "items": {
+    "id": "0",
+    "type": "object",
+    "properties": {
+      "id": {
+        "id": "id",
+        "type": "string"
+      },
+      "title": {
+        "id": "title",
+        "type": "string"
+      },
+      "description": {
+        "id": "description",
+        "type": "string"
+      },
+      "format": {
+        "id": "format",
+        "type": "string"
+      },
+      "uri": {
+        "id": "uri",
+        "type": "string"
+      },
+      "duration": {
+        "id": "duration",
+        "type": "string"
+      },
+      "type": {
+        "id": "type",
+        "type": "string"
+      },
+      "source": {
+        "id": "source",
+        "type": "object",
+        "properties": {
+          "name": {
+            "id": "name",
+            "type": "string"
+          },
+          "data": {
+            "id": "data",
+            "type": "array",
+            "items": {
+              "id": "0",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "id": "name",
+                  "type": "string"
+                },
+                "value": {
+                  "id": "value",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "additionalItems": false
+          }
+        },
+        "additionalProperties": false
+      },
+      "lesson": {
+        "id": "lesson",
+        "type": "string"
+      },
+      "categoryDimensions": {
+        "id": "categoryDimensions",
+        "type": "array",
+        "items": {
+          "id": "0",
+          "type": "object",
+          "properties": {
+            "name": {
+              "id": "name",
+              "type": "string"
+            },
+            "categories": {
+              "id": "categories",
+              "type": "array",
+              "items": {
+                "id": "0",
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "id": "name",
+                    "type": "string"
+                  },
+                  "title": {
+                    "id": "title",
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "additionalItems": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "additionalItems": false
+      },
+      "availability": {
+        "id": "availability",
+        "type": "object",
+        "properties": {
+          "rules": {
+            "id": "rules",
+            "type": "array",
+            "items": {
+              "id": "0",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "id": "name",
+                  "type": "string"
+                },
+                "value": {
+                  "id": "value",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "additionalItems": false
+          }
+        },
+        "additionalProperties": false
+      },
+      "hyperlink": {
+        "id": "hyperlink",
+        "type": "object",
+        "properties": {
+          "method": {
+            "id": "method",
+            "type": "string"
+          },
+          "body": {
+            "id": "body",
+            "type": "string"
+          },
+          "uri": {
+            "id": "uri",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "extension": {
+        "id": "extension",
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "title",
+      "description",
+      "format",
+      "uri",
+      "duration",
+      "type",
+      "lesson",
+      "source",
+      "categories",
+      "availability",
+      "hyperlink",
+      "extension"
+    ]
+  },
+  "additionalItems": false,
+  "required": [
+    "0"
+  ]
+}

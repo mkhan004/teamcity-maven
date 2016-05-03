@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "id": "#0",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "id": "#id",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "name": {
+        "id": "#name",
+        "type": "string",
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "name"
+    ]
+  },
+  "required": [
+    "0"
+  ]
+}

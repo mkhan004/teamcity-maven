@@ -1,0 +1,1 @@
+{"status":"Ok","components":[{"name":"kapEngine","status":"Ok"},{"name":"studyplan","status":"Ok"},{"name":"ldap","status":"Ok","description":"ldap://172.19.13.20/CN=Configuration,DC=kaplaninc,DC=com"}]}

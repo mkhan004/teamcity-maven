@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password,APIKey,SharedSecret,tokenSecret,EmailTo,EmailFrom,EmailHost
+https://api.atom.ktp.io/,443,Channel API,PROD-Gateway,./Channel.Regression.Tests/Gateway/PROD/requests.csv,./Channel.Regression.Tests/Gateway/PROD/validations.csv,,,atomqateam,f717uxhMStolc0CQgca58WtLLtfcculN,6ChM086QwrCwwKThjNUp0SYP4eIno8yp,kunal.thorat@kaplan.com,atombot@kaplan.com,smtp.prd.kaplan.com

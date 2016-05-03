@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "id": "#id",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "product": {
+      "id": "#product",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "id": "#id",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "name": {
+          "id": "#name",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "code": {
+          "id": "#code",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "program": {
+          "id": "#program",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "businessUnit": {
+          "id": "#businessUnit",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "business": {
+          "id": "#business",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "isActive": {
+          "id": "#isActive",
+          "type": "boolean",
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "code",
+        "program",
+        "businessUnit",
+        "business",
+        "isActive"
+      ]
+    },
+    "syllabus": {
+      "id": "#syllabus",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "id": "#id",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "name": {
+          "id": "#name",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "repoPath": {
+          "id": "#repoPath",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "isActive": {
+          "id": "#isActive",
+          "type": "boolean",
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "repoPath",
+        "isActive"
+      ]
+    },
+    "name": {
+      "id": "#name",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "priority": {
+      "id": "#priority",
+      "type": "integer",
+      "additionalProperties": false
+    },
+    "isDefault": {
+      "id": "#isDefault",
+      "type": "boolean",
+      "additionalProperties": false
+    },
+    "versionNo": {
+      "id": "#versionNo",
+      "type": "integer",
+      "additionalProperties": false
+    },
+    "status": {
+      "id": "#status",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "isActive": {
+      "id": "#isActive",
+      "type": "boolean",
+      "additionalProperties": false
+    },
+    "createdOn": {
+      "id": "#createdOn",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "updatedOn": {
+      "id": "#updatedOn",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "createdBy": {
+      "id": "#createdBy",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "updatedBy": {
+      "id": "#updatedBy",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "templateId": {
+      "id": "#templateId",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "liveVersionId": {
+      "id": "#liveVersionId",
+      "type": "string",
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "product",
+    "syllabus",
+    "name",
+    "priority",
+    "isDefault",
+    "versionNo",
+    "status",
+    "isActive",
+    "createdOn",
+    "updatedOn",
+    "createdBy",
+    "updatedBy",
+    "templateId",
+    "liveVersionId"
+  ]
+}

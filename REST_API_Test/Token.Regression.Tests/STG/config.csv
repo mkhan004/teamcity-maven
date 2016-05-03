@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password,APIKey,SharedSecret,tokenSecret,EmailTo,EmailFrom,EmailHost
+https://stg-token.atom.ktp.io,443,Token - API,STG HTTPS,./Token.Regression.Tests/QA/requests.csv,./Token.Regression.Tests/QA/Validations.csv,,,atomqateam,6ChM086QwrCwwKThjNUp0SYP4eIno8yp,f717uxhMStolc0CQgca58WtLLtfcculN,shakil.khan@kaplan.com,atombot@kaplan.com,smtp.prd.kaplan.com

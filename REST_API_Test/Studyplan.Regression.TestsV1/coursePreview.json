@@ -1,0 +1,229 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "id": "#id",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "title": {
+      "id": "#title",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "business": {
+      "id": "#business",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "program": {
+      "id": "#program",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "assets": {
+      "id": "#assets",
+      "type": "array",
+      "additionalProperties": false,
+      "items": [
+        {
+          "id": "#0",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "id": "#id",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "title": {
+              "id": "#title",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "uri": {
+              "id": "#uri",
+              "type": "string",
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "id": "#1",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "id": "#id",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "title": {
+              "id": "#title",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "uri": {
+              "id": "#uri",
+              "type": "string",
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "trackingInfo": {
+      "id": "#trackingInfo",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "syllabusDetails": {
+          "id": "#syllabusDetails",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "productSyllabusId": {
+              "id": "#productSyllabusId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "syllabusId": {
+              "id": "#syllabusId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "ruleId": {
+              "id": "#ruleId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "isDefault": {
+              "id": "#isDefault",
+              "type": "boolean",
+              "additionalProperties": false
+            },
+            "priority": {
+              "id": "#priority",
+              "type": "integer",
+              "additionalProperties": false
+            },
+            "versionId": {
+              "id": "#versionId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "status": {
+              "id": "#status",
+              "type": "integer",
+              "additionalProperties": false
+            },
+            "versionNo": {
+              "id": "#versionNo",
+              "type": "integer",
+              "additionalProperties": false
+            },
+            "ruleConditions": {
+              "id": "#ruleConditions",
+              "type": "array",
+              "additionalProperties": false,
+              "items": [
+                {
+                  "id": "#0",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "id": "#name",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "entity": {
+                      "id": "#entity",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "property": {
+                      "id": "#property",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "operator": {
+                      "id": "#operator",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "dataType": {
+                      "id": "#dataType",
+                      "type": "integer",
+                      "additionalProperties": false
+                    },
+                    "isMultiUse": {
+                      "id": "#isMultiUse",
+                      "type": "boolean",
+                      "additionalProperties": false
+                    },
+                    "value": {
+                      "id": "#value",
+                      "type": "string",
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                {
+                  "id": "#1",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "id": "#name",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "entity": {
+                      "id": "#entity",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "property": {
+                      "id": "#property",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "operator": {
+                      "id": "#operator",
+                      "type": "string",
+                      "additionalProperties": false
+                    },
+                    "dataType": {
+                      "id": "#dataType",
+                      "type": "integer",
+                      "additionalProperties": false
+                    },
+                    "isMultiUse": {
+                      "id": "#isMultiUse",
+                      "type": "boolean",
+                      "additionalProperties": false
+                    },
+                    "value": {
+                      "id": "#value",
+                      "type": "string",
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "reasonForSelection": {
+          "id": "#reasonForSelection",
+          "type": "string",
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

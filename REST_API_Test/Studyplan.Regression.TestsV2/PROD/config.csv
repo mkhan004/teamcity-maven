@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password,APIKey,SharedSecret,tokenSecret,EmailTo,EmailFrom,EmailHost
+https://study.atom.ktp.io,443,StudyPlan - V2,PROD V2 HTTPS,./Studyplan.Regression.TestsV2/Tests/requestsAuthorization.csv,./Studyplan.Regression.TestsV2/Tests/ValidationsAuthorization.csv,,,atomqateam,f717uxhMStolc0CQgca58WtLLtfcculN,6ChM086QwrCwwKThjNUp0SYP4eIno8yp,shakil.khan@kaplan.com,atombot@kaplan.com,smtp.prd.kaplan.com

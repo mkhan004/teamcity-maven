@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" parallel="none">
+
+  <test verbose="1" name="REST_API_Test" annotations="JDK">
+    <parameter name="configpath" value="" />
+    <classes>
+      <class name="com.kaplan.API.TestOrchestrator"/>
+    </classes>
+  </test>
+</suite>

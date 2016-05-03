@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "id": "#name",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "product": {
+      "id": "#product",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "id": "#id",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "name": {
+          "id": "#name",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "code": {
+          "id": "#code",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "program": {
+          "id": "#program",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "businessUnit": {
+          "id": "#businessUnit",
+          "type": "string",
+          "additionalProperties": false
+        },
+        "business": {
+          "id": "#business",
+          "type": "string",
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "code",
+        "program",
+        "businessUnit",
+        "business"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "product"
+  ]
+}

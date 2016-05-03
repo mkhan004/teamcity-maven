@@ -1,0 +1,11 @@
+{
+    "type": "user",
+    "userId": "123",
+    "userProvider": "kaptest",
+    "email": "atomweb.admin@kaptest.com",
+    "firstName": "Atomweb",
+    "lastName": "Admin",
+    "version": 1,
+    "enrollments": [],
+    "iat": 1430152221
+}

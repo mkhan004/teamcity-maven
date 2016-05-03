@@ -1,0 +1,14 @@
+{
+  "appId": "atomqateam",
+  "user": {
+    "id": "ABot",
+    "provider": "kec",
+    "email": "atombot@kaplan.com",
+    "firstName": "Atom",
+    "lastName": "Bot"
+  },
+  "resources": [],
+  "iat": 1457372062,
+  "exp": 14573742224356456,
+  "iss": "gateway"
+}

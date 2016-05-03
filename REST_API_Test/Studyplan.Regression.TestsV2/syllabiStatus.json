@@ -1,0 +1,492 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "id": "#0",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "id": "#id",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "isActive": {
+        "id": "#isActive",
+        "type": "boolean",
+        "additionalProperties": false
+      },
+      "repoPath": {
+        "id": "#repoPath",
+        "type": "string",
+        "additionalProperties": false
+      },
+      "detail": {
+        "id": "#detail",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "id": "#id",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "name": {
+            "id": "#name",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "title": {
+            "id": "#title",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "description": {
+            "id": "#description",
+            "type": "string",
+            "additionalProperties": false
+          }
+        }
+      },
+      "lastCommit": {
+        "id": "#lastCommit",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "commitHash": {
+            "id": "#commitHash",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "tree": {
+            "id": "#tree",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "parents": {
+            "id": "#parents",
+            "type": "array",
+            "additionalProperties": false,
+            "items": [
+              {
+                "id": "#0",
+                "type": "string",
+                "additionalProperties": false
+              },
+              {
+                "id": "#1",
+                "type": "string",
+                "additionalProperties": false
+              }
+            ]
+          },
+          "author": {
+            "id": "#author",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "authorEmail": {
+            "id": "#authorEmail",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "authorDate": {
+            "id": "#authorDate",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "committer": {
+            "id": "#committer",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "committerEmail": {
+            "id": "#committerEmail",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "committerDate": {
+            "id": "#committerDate",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "subject": {
+            "id": "#subject",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "body": {
+            "id": "#body",
+            "type": "string",
+            "additionalProperties": false
+          }
+        }
+      },
+      "syllabusProducts": {
+        "id": "#syllabusProducts",
+        "type": "array",
+        "additionalProperties": false,
+        "items": [
+          {
+            "id": "#0",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "id": "#id",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "product": {
+                "id": "#product",
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "id": "#id",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "name": {
+                    "id": "#name",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "externalProductId": {
+                    "id": "#externalProductId",
+                    "type": "integer",
+                    "additionalProperties": false
+                  },
+                  "productCode": {
+                    "id": "#productCode",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "program": {
+                    "id": "#program",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "isActive": {
+                    "id": "#isActive",
+                    "type": "boolean",
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "syllabus": {
+                "id": "#syllabus",
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "id": "#id",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "name": {
+                    "id": "#name",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "repoPath": {
+                    "id": "#repoPath",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "isActive": {
+                    "id": "#isActive",
+                    "type": "boolean",
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "name": {
+                "id": "#name",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "priority": {
+                "id": "#priority",
+                "type": "integer",
+                "additionalProperties": false
+              },
+              "isDefault": {
+                "id": "#isDefault",
+                "type": "boolean",
+                "additionalProperties": false
+              },
+              "versionNo": {
+                "id": "#versionNo",
+                "type": "integer",
+                "additionalProperties": false
+              },
+              "status": {
+                "id": "#status",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "isActive": {
+                "id": "#isActive",
+                "type": "boolean",
+                "additionalProperties": false
+              },
+              "createdOn": {
+                "id": "#createdOn",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "updatedOn": {
+                "id": "#updatedOn",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "createdBy": {
+                "id": "#createdBy",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "updatedBy": {
+                "id": "#updatedBy",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "templateId": {
+                "id": "#templateId",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "liveVersionId": {
+                "id": "#liveVersionId",
+                "type": "string",
+                "additionalProperties": false
+              }
+            }
+          },
+          {
+            "id": "#1",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "id": "#id",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "product": {
+                "id": "#product",
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "id": "#id",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "name": {
+                    "id": "#name",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "externalProductId": {
+                    "id": "#externalProductId",
+                    "type": "integer",
+                    "additionalProperties": false
+                  },
+                  "productCode": {
+                    "id": "#productCode",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "program": {
+                    "id": "#program",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "isActive": {
+                    "id": "#isActive",
+                    "type": "boolean",
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "syllabus": {
+                "id": "#syllabus",
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "id": "#id",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "name": {
+                    "id": "#name",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "repoPath": {
+                    "id": "#repoPath",
+                    "type": "string",
+                    "additionalProperties": false
+                  },
+                  "isActive": {
+                    "id": "#isActive",
+                    "type": "boolean",
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "name": {
+                "id": "#name",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "priority": {
+                "id": "#priority",
+                "type": "integer",
+                "additionalProperties": false
+              },
+              "isDefault": {
+                "id": "#isDefault",
+                "type": "boolean",
+                "additionalProperties": false
+              },
+              "versionNo": {
+                "id": "#versionNo",
+                "type": "integer",
+                "additionalProperties": false
+              },
+              "status": {
+                "id": "#status",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "isActive": {
+                "id": "#isActive",
+                "type": "boolean",
+                "additionalProperties": false
+              },
+              "createdOn": {
+                "id": "#createdOn",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "updatedOn": {
+                "id": "#updatedOn",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "createdBy": {
+                "id": "#createdBy",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "updatedBy": {
+                "id": "#updatedBy",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "templateId": {
+                "id": "#templateId",
+                "type": "string",
+                "additionalProperties": false
+              },
+              "liveVersionId": {
+                "id": "#liveVersionId",
+                "type": "string",
+                "additionalProperties": false
+              }
+            }
+          }
+        ]
+      },
+      "liveVersion": {
+        "id": "#liveVersion",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "id": "#id",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "publishVersionId": {
+            "id": "#publishVersionId",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "versionNo": {
+            "id": "#versionNo",
+            "type": "integer",
+            "additionalProperties": false
+          },
+          "publishDate": {
+            "id": "#publishDate",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "publishPath": {
+            "id": "#publishPath",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "isLive": {
+            "id": "#isLive",
+            "type": "boolean",
+            "additionalProperties": false
+          },
+          "makeLiveDate": {
+            "id": "#makeLiveDate",
+            "type": "string",
+            "additionalProperties": false
+          }
+        }
+      },
+      "updateAvailable": {
+        "id": "#updateAvailable",
+        "type": "boolean",
+        "additionalProperties": false
+      },
+      "mappedProduct": {
+        "id": "#mappedProduct",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "id": "#id",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "name": {
+            "id": "#name",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "externalProductId": {
+            "id": "#externalProductId",
+            "type": "integer",
+            "additionalProperties": false
+          },
+          "productCode": {
+            "id": "#productCode",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "program": {
+            "id": "#program",
+            "type": "string",
+            "additionalProperties": false
+          },
+          "isActive": {
+            "id": "#isActive",
+            "type": "boolean",
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

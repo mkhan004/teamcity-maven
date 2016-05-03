@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password,APIKey,SharedSecret,EmailTo,EmailFrom,EmailHost
+http://PWSDPAPI001.kaplaninc.com,80,StudyPlan - V1,PROD1,./Atom.Integration.Tests/PROD/requests.csv,./Atom.Integration.Tests/PROD/validations.csv,,,,,atomapi@kaplan.com,atombot@kaplan.com,smtp.prd.kaplan.com

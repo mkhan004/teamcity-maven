@@ -1,0 +1,161 @@
+{
+  "sources": [
+    {
+      "name": "string",
+      "data": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "string",
+      "title": "string",
+      "subtitle": "string",
+      "description": "string",
+      "subject": "string",
+      "lessons": [
+        null
+      ],
+      "assignmentGroups": [
+        {
+          "id": "string",
+          "title": "string",
+          "description": "string",
+          "format": "string",
+          "registration": "string",
+          "availability": {
+            "dateRule": {
+              "startsOn": "2015-02-26T18:35:44.322Z",
+              "endsOn": "2015-02-26T18:35:44.322Z"
+            },
+            "available": true
+          },
+          "assignments": [
+            {
+              "id": "string",
+              "title": "string",
+              "description": "string",
+              "format": "string",
+              "uri": "string",
+              "duration": "string",
+              "type": "string",
+              "source": {
+                "name": "string",
+                "data": [
+                  {
+                    "name": "string",
+                    "value": "string"
+                  }
+                ]
+              },
+              "registration": "string",
+              "lesson": "string",
+              "categoryDimensions": [
+                {
+                  "name": "string",
+                  "categories": [
+                    {
+                      "name": "string",
+                      "title": "string"
+                    }
+                  ]
+                }
+              ],
+              "criteria": {
+                "fields": [
+                  {
+                    "name": "string",
+                    "value": "string"
+                  }
+                ],
+                "categories": [
+                  null
+                ]
+              },
+              "hyperlink": {
+                "method": "string",
+                "body": "string",
+                "uri": "string"
+              },
+              "extension": {}
+            }
+          ],
+          "assignmentGroups": [
+            null
+          ],
+          "additional": {
+            "assignments": [
+              null
+            ]
+          }
+        }
+      ],
+      "assignments": [
+        null
+      ]
+    }
+  ],
+  "additional": {
+    "assignments": [
+      {
+        "id": "string",
+        "title": "string",
+        "description": "string",
+        "format": "string",
+        "uri": "string",
+        "duration": "string",
+        "type": "string",
+        "source": {
+          "name": "string",
+          "data": [
+            {
+              "name": "string",
+              "value": "string"
+            }
+          ]
+        },
+        "registration": "string",
+        "lesson": "string",
+        "categoryDimensions": [
+          {
+            "name": "string",
+            "categories": [
+              {
+                "name": "string",
+                "title": "string"
+              }
+            ]
+          }
+        ],
+        "criteria": {
+          "fields": [
+            {
+              "name": "string",
+              "value": "string"
+            }
+          ],
+          "categories": [
+            null
+          ]
+        },
+        "availability": {
+          "dateRule": {
+            "startsOn": "2015-02-26T18:35:44.323Z",
+            "endsOn": "2015-02-26T18:35:44.323Z"
+          },
+          "available": true
+        },
+        "hyperlink": {
+          "method": "string",
+          "body": "string",
+          "uri": "string"
+        },
+        "extension": {}
+      }
+    ]
+  }
+}

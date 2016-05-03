@@ -1,0 +1,1 @@
+"InternalServerError: Error loading yaml file COMPLETEPROGRAM/PRODUCTMALFORMEDINSTRACTOR/instructors.yaml\n    at Server.getInstructors (/usr/src/atom/src/controllers/instructors/instructors.controller.js:101:10)\n    at throw (native)\n    at onRejected (/usr/src/atom/node_modules/co/index.js:81:24)\n    at process._tickDomainCallback (internal/process/next_tick.js:129:7)"

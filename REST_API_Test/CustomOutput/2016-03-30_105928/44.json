@@ -1,0 +1,1 @@
+"NotFoundError: No channel session files were found for the specified section\n    at Server.getSessions (/usr/src/atom/src/controllers/sessions/sessions.controller.js:105:14)\n    at next (native)\n    at onFulfilled (/usr/src/atom/node_modules/co/index.js:65:19)\n    at process._tickDomainCallback (node.js:438:9)"

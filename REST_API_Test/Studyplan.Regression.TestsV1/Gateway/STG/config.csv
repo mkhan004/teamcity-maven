@@ -1,0 +1,2 @@
+Base URL,Port,Project,environment,requestFile,ValidationFile,Name,Password
+http://stg.api.atom.ktp.io/v1/study,80,Gateway - StudyPlan,STAGING,./Atom.Integration.Tests/STG/requests.csv,./Atom.Integration.Tests/STG/validations.csv,,

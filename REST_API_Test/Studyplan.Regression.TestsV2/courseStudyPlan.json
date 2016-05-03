@@ -1,0 +1,248 @@
+{
+  "sources": [
+    {
+      "name": "sample string 1",
+      "extensions": [
+        {
+          "name": "sample string 1",
+          "value": "sample string 2"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "sample string 1",
+      "title": "sample string 2",
+      "description": "sample string 3",
+      "extensions": [
+        {
+          "name": "sample string 1",
+          "value": "sample string 2"
+        }
+      ],
+      "lessons": [],
+      "assignmentGroups": [
+        {
+          "id": "sample string 1",
+          "title": "sample string 2",
+          "assignments": [
+            {
+              "id": "sample string 1",
+              "lesson": "sample string 2",
+              "type": "sample string 3",
+              "title": "sample string 4",
+              "source": "sample string 5",
+              "format": "sample string 6",
+              "uri": "sample string 7",
+              "duration": "sample string 8",
+              "description": "sample string 9",
+              "extensions": [
+                {
+                  "name": "sample string 1",
+                  "value": "sample string 2"
+                }
+              ],
+              "categoryDimensions": [
+                {
+                  "name": "sample string 1",
+                  "categories": [
+                    {
+                      "name": "sample string 1",
+                      "title": "sample string 2"
+                    }
+                  ]
+                },
+                {
+                  "name": "sample string 1",
+                  "categories": [
+                    {
+                      "name": "sample string 1",
+                      "title": "sample string 2"
+                    }
+                  ]
+                }
+              ],
+              "availability": {
+                "rules": [
+                  {
+                    "name": "sample string 1",
+                    "value": "sample string 2"
+                  }
+                ]
+              }
+            }
+          ],
+          "additional": {
+            "assignments": [
+              {
+                "id": "sample string 1",
+                "lesson": "sample string 2",
+                "type": "sample string 3",
+                "title": "sample string 4",
+                "source": "sample string 5",
+                "format": "sample string 6",
+                "uri": "sample string 7",
+                "duration": "sample string 8",
+                "description": "sample string 9",
+                "extensions": [
+                  {
+                    "name": "sample string 1",
+                    "value": "sample string 2"
+                  }
+                ],
+                "categoryDimensions": [
+                  {
+                    "name": "sample string 1",
+                    "categories": [
+                      {
+                        "name": "sample string 1",
+                        "title": "sample string 2"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sample string 1",
+                    "categories": [
+                      {
+                        "name": "sample string 1",
+                        "title": "sample string 2"
+                      }
+                    ]
+                  }
+                ],
+                "availability": {
+                  "rules": [
+                    {
+                      "name": "sample string 1",
+                      "value": "sample string 2"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "session": {
+            "title": "sample string 1",
+            "startTime": "2014-10-23T13:17:53.0093059-04:00",
+            "endTime": "2014-10-23T13:17:53.0093059-04:00",
+            "duration": 4,
+            "format": "sample string 5",
+            "moduleId": "sample string 6",
+            "location": {
+              "name": "sample string 1",
+              "room": "sample string 2",
+              "address1": "sample string 3",
+              "address2": "sample string 4",
+              "city": "sample string 5",
+              "stateProvince": "sample string 6",
+              "postalCode": "sample string 7"
+            },
+            "extensions": [
+              {
+                "name": "sample string 1",
+                "value": "sample string 2"
+              }
+            ]
+          }
+        }        
+      ],
+      "assignments": [
+        {
+          "id": "sample string 1",
+          "lesson": "sample string 2",
+          "type": "sample string 3",
+          "title": "sample string 4",
+          "source": "sample string 5",
+          "format": "sample string 6",
+          "uri": "sample string 7",
+          "duration": "sample string 8",
+          "description": "sample string 9",
+          "extensions": [
+            {
+              "name": "sample string 1",
+              "value": "sample string 2"
+            }
+          ],
+          "categoryDimensions": [
+            {
+              "name": "sample string 1",
+              "categories": [
+                {
+                  "name": "sample string 1",
+                  "title": "sample string 2"
+                }
+              ]
+            },
+            {
+              "name": "sample string 1",
+              "categories": [
+                {
+                  "name": "sample string 1",
+                  "title": "sample string 2"
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "rules": [
+              {
+                "name": "sample string 1",
+                "value": "sample string 2"
+              }
+            ]
+          }
+        }
+      ],
+      "additional": {
+        "assignments": [
+          {
+            "id": "sample string 1",
+            "lesson": "sample string 2",
+            "type": "sample string 3",
+            "title": "sample string 4",
+            "source": "sample string 5",
+            "format": "sample string 6",
+            "uri": "sample string 7",
+            "duration": "sample string 8",
+            "description": "sample string 9",
+            "extensions": [
+              {
+                "name": "sample string 1",
+                "value": "sample string 2"
+              }
+            ],
+            "categoryDimensions": [
+              {
+                "name": "sample string 1",
+                "categories": [
+                  {
+                    "name": "sample string 1",
+                    "title": "sample string 2"
+                  }
+                ]
+              },
+              {
+                "name": "sample string 1",
+                "categories": [
+                  {
+                    "name": "sample string 1",
+                    "title": "sample string 2"
+                  }
+                ]
+              }
+            ],
+            "availability": {
+              "rules": [
+                {
+                  "name": "sample string 1",
+                  "value": "sample string 2"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

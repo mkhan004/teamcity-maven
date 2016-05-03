@@ -1,0 +1,31 @@
+ID,method,endPoint,headers,reqbody,input1,input2,input3,input4,input5,inputFile,param1,param2,param3,param4,param5,save1,save2,save3,description,reqContentType,respContentType
+1,GET,/api/v1/biz,,,,,,,,,,,,,,yes,,,Returns a collection of businesses supported,,JSON
+2,GET,/api/v1/biz/{bizId}/sbu,,,{1.id[1]},,,,,,,,,,,yes,,,Returns a collection of business units for a business,,JSON
+3,GET,/api/v1/biz/{bizId}/sbu/{sbuId}/program,,,{1.id[1]},{2.id[0]},,,,,,,,,,yes,,,Returns a collection of programs configured for a business and business unit,,JSON
+4,GET,/api/v1/biz/{bizId}/sbu/{sbuId}/program/{programId}/product,,,{1.id[1]},{2.id[0]},{3.id[0]},,,,,,,,,yes,,,"Returns a collection of products for business, business unit and program specified",,JSON
+5,GET,/api/v1/ruletemplate,,,,,,,,,,,,,,,,,Get list of available Rule Templates,,JSON
+6,GET,/api/v1/syllabus,,,,,,,,,biz=wayneenterprises,sbu=aerospace,program=wraith,product=stealth,status=1,,,,Get list of Syllabi 'SubmittedForApproval',,JSON
+7,GET,/api/v1/syllabus,,,,,,,,,biz=wayneenterprises,sbu=aerospace,program=wraith,product=stealth,status=2,,,,Get list of 'Approved' Syllabi,,JSON
+8,GET,/api/v1/syllabus,,,,,,,,,biz=wayneenterprises,sbu=aerospace,program=wraith,product=stealth,status=3,,,,Get list of 'Rejected' Syllabi,,JSON
+9,GET,/api/v1/product/{productId}/syllabus,,,{4.id[0]},,,,,,,,,,,yes,,,Returns a collection of syllabus mapped to the product specified,,JSON
+10,GET,/api/v1/syllabus/{syllabusId}/product/{productId},,,{9.syllabus.id[0]},{4.id[0]},,,,,,,,,,,,,Returns a single syllabus by product identifier and syllabus identifier.,,JSON
+11,GET,/api/v1/syllabus/{syllabusId}/product/{productId}/version,,,{9.syllabus.id[0]},{4.id[0]},,,,,,,,,,,,,Returns a collection of syllabus versions by syllabus identifier and product identifier.,,JSON
+12,GET,/api/v1/syllabus/{syllabusId}/product/{productId}/rule,,,{9.syllabus.id[0]},{4.id[0]},,,,,,,,,,,,,Returns the rules mapped to a product syllabus.,,JSON
+13,GET,/api/v1/syllabus/{syllabusId}/version,,,{9.syllabus.id[0]},,,,,,,,,,,,,,Returns a collection of syllabus versions by syllabus identifier.,,JSON
+14,GET,/api/v1/course,,,,,,,,,productCode=MCAT,ClassCode=MCMV15005A,,,,yes,,,Get Course for the specified criteria,,JSON
+15,GET,/api/v1/course/preview,,,,,,,,,productCode=MCAT,,,,,yes,,,Returns the preview version of the course for the specified criteria,,JSON
+16,GET,/api/v1/course/{courseId},,,{15.id},,,,,,,,,,,,,,Returns the course for the specified course identifier,,JSON
+17,GET,/api/v1/course/{courseId}/studyplan,,,{15.id},,,,,,,,,,,,,,Gets the StudyPlan for specified courseId,,JSON
+18,GET,/api/v1/course/{courseId}/studyplan,To Do,,{15.id},,,,,,classCode=MCMV15005A,,,,,,,,Gets the StudyPlan for specified courseId and the Class specified by the ClassCode,,JSON
+19,GET,/api/v1/course/{courseId}/studyplan/source,,,{15.id},,,,,,,,,,,,,,Returns a collection of sources used in the study plan.,,JSON
+20,GET,/api/v1/course/{courseId}/studyplan/lesson,,,{15.id},,,,,,,,,,,yes,,,Returns a collection of lessons in the study plan.,,JSON
+21,GET,/api/v1/course/{courseId}/studyplan/lesson/{lessonId},,,{15.id},{20.id[1]},,,,,,,,,,,,,Returns a single lesson specified by the id.,,JSON
+22,GET,/api/v1/course/{courseId}/studyplan/lesson/{lessonId},,,{15.id},{20.id[1]},,,,,expand=lessons,,,,,yes,,,Returns a single lesson specified by the id with lessons expanded,,JSON
+23,GET,/api/v1/course/{courseId}/studyplan/lesson/{lessonId}/lesson/{sublessonId},,,{15.id},{20.id[1]},{22.lessons[0].id},,,,,,,,,,,,Returns a single lesson specified by the id.,,JSON
+24,GET,/api/v1/course/{courseId}/assignment,,,{15.id},,,,,,,,,,,,,,Returns the assignments for the course,,JSON
+25,GET,/api/v1/course/{courseId}/application,,,{15.id},,,,,,,,,,,,,,Returns the applications for a course,,JSON
+26,GET,/api/v1/course/{courseId}/studyplan/lesson/{lessonId},,,{15.id},{20.id[1]},,,,,"expand=lessons,description",,,,,,,,Returns a single lesson specified by the id with lessons expanded and descriptions,,JSON
+27,GET,/api/v1/course,,,,,,,,,ProductCode=lifesupport,classStartDate=02/23/2015,,,,yes,,,Flex Session - Get Course for the specified criteria,,JSON
+28,GET,/api/v1/course/{courseId}/studyplan,,,{27.id},,,,,,classcode=DAMV15002,courseAccessId=123,,,,,,,Flex Session - Get StudyPlan with Flex Sessions,,JSON
+29,GET,/api/v1/course,,,,,,,,,ProductCode=Krypton,AssetEntryDate=03/16/2015,,,,yes,,,Class Session as Assignment,,JSON
+30,GET,/api/v1/course/{courseId}/studyplan,,,{29.id},,,,,,classcode=DAMV15002,courseAccessId=123,,,,,,,Class Session as Assignment,,JSON

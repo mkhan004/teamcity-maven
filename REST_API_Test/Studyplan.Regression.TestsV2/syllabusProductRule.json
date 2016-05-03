@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "id": "#title",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "ruleId": {
+      "id": "#ruleId",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "ruleTemplateId": {
+      "id": "#ruleTemplateId",
+      "type": "string",
+      "additionalProperties": false
+    },
+    "condition": {
+      "id": "#condition",
+      "type": "array",
+      "additionalProperties": false,
+      "items": [
+        {
+          "id": "#0",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "ruleTemplateConditionId": {
+              "id": "#ruleTemplateConditionId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "conditionId": {
+              "id": "#conditionId",
+              "type": "string",
+              "additionalProperties": false
+            },
+            "value": {
+              "id": "#value",
+              "type": "string",
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

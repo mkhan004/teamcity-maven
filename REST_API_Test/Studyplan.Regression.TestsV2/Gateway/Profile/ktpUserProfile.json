@@ -1,0 +1,156 @@
+{
+    "type": "user",
+    "userId": "123",
+    "userProvider": "kaptest",
+    "email": "atomweb.admin@kaptest.com",
+    "firstName": "Atomweb",
+    "lastName": "Admin",
+    "version": 1,
+    "enrollments": [
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "bf6c197c-8a18-48bf-bda4-d11ab4f5db9c",
+            "product": {
+                "code": "MCATEXVL",
+                "title": "MCAT AdvantagePlus - Anywhere"
+            },
+            "scope": "student",
+            "startDate": "2014-09-22T00:00:01",
+            "endDate": "2099-09-22T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "bf6c197c-8a18-48bf-bda4-d11ab4f5db9c",
+            "product": {
+                "code": "LIFESUPPORT",
+                "title": "LIFESUPPORT Product"
+            },
+            "scope": "student",
+            "startDate": "2014-09-22T00:00:01",
+            "endDate": "2099-09-22T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "bf6c197c-8a18-48bf-bda4-d11ab4f5db9c",
+            "product": {
+                "code": "KRYPTON",
+                "title": "KRYPTON Product"
+            },
+            "scope": "student",
+            "startDate": "2014-09-22T00:00:01",
+            "endDate": "2099-09-22T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "",
+            "sbuId": "",
+            "programId": "",
+            "product": {
+                "code": "PCATOL",
+                "title": "PCAT Advantage - On Demand"
+            },
+            "scope": "student",
+            "startDate": "2014-06-14T00:00:01",
+            "endDate": "2099-09-17T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "bec41870-c8d4-48be-90d8-08a55cc4ecef",
+            "product": {
+                "code": "MCAT",
+                "title": "MCAT Advantage - On Site"
+            },
+            "scope": "student",
+            "startDate": "2014-09-11T00:00:01",
+            "endDate": "2099-09-11T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "537d9079-aed8-49ce-92a3-e22b87019ba1",
+            "product": {
+                "code": "MCATEX",
+                "title": "MCAT AdvantagePlus - On Site"
+            },
+            "scope": "student",
+            "startDate": "2014-09-02T00:00:01",
+            "endDate": "2099-09-02T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "KTP",
+            "sbuId": "GRAD",
+            "programId": "dcd4aaa9-24dd-4b60-ab83-ea841f6b2ae4",
+            "product": {
+                "code": "MCATVL",
+                "title": "MCAT Advantage - Anywhere"
+            },
+            "scope": "student",
+            "startDate": "2014-08-20T00:00:01",
+            "endDate": "2099-08-19T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        },
+        {
+            "id": "0",
+            "businessId": "",
+            "sbuId": "",
+            "programId": "",
+            "product": {
+                "code": "PCATOL",
+                "title": "PCAT Advantage - On Demand"
+            },
+            "scope": "student",
+            "startDate": "2014-03-10T00:00:01",
+            "endDate": "2099-06-12T23:59:59",
+            "extension":{
+                "courseAccessId":"123",
+                "classCode":"MXMV15003A",
+                "classId":"1003960971"
+            }
+        }
+    ],
+    "iat": 1430152221
+}
